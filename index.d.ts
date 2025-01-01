@@ -41,8 +41,5 @@ declare namespace Errors {
     var propTypes: {
         position: PropTypes.Requireable<string>;
     };
-    var defaultProps: {
-        position: string;
-    };
 }
 export default Errors;

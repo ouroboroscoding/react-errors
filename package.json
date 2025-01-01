@@ -1,6 +1,6 @@
 {
 	"name": "@ouroboros/react-errors",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Errors Component. Shows error messages sent to it.",
 	"main": "index.js",
 	"types": "index.d.ts",
@@ -32,8 +32,8 @@
 		"typescript": "^4.8.3"
 	},
 	"dependencies": {
-		"@ouroboros/events": "^1.0.1",
-		"@ouroboros/tools": "^0.5.4",
+		"@ouroboros/events": "^1.1.0",
+		"@ouroboros/tools": "^0.6.1",
 		"prop-types": "^15.8.1",
 		"uuid": "^10.0.0"
 	},
