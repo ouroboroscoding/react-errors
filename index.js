@@ -38,7 +38,7 @@ export function addError(error) {
  * @param Object props Properties passed to the component
  * @returns React.Component
  */
-export default function Errors({ position }) {
+export default function Errors({ position = 'bottom' }) {
     // State
     const [errors, errorsSet] = useState([]);
     // Load effect
@@ -97,8 +97,4 @@ export default function Errors({ position }) {
 // Valid props
 Errors.propTypes = {
     position: PropTypes.oneOf(['bottom', 'top'])
-};
-// Default props
-Errors.defaultProps = {
-    position: 'bottom'
 };

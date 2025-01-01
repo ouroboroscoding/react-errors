@@ -54,9 +54,7 @@ export function addError(error: string | object): void {
  * @param Object props Properties passed to the component
  * @returns React.Component
  */
-export default function Errors({
-	position
-}: ErrorsProps) {
+export default function Errors({ position = 'bottom' }: ErrorsProps) {
 
 	// State
 	const [ errors, errorsSet ] = useState<ErrorMessageType[]>([]);
@@ -141,9 +139,4 @@ export default function Errors({
 // Valid props
 Errors.propTypes = {
 	position: PropTypes.oneOf([ 'bottom', 'top' ])
-}
-
-// Default props
-Errors.defaultProps = {
-	position: 'bottom'
 }
