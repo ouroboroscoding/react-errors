@@ -1,6 +1,6 @@
 {
 	"name": "@ouroboros/react-errors",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Errors Component. Shows error messages sent to it.",
 	"main": "index.js",
 	"types": "index.d.ts",
